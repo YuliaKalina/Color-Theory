@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Cyrvetica v2 Extra Outline';
+    src: url('../css/fonts/16618.otf');
+}
+@font-face {
+    font-family: 'Play-Bold';
+    src: url('../css/fonts/20289.ttf');
+}
+
+
+body {
+    overflow: hidden;
+    font-family: Nunito, serif;
+    scroll-behavior: smooth;
+}
+
+.caption-color{
+    font-family: Play-Bold, serif;
+}
+
+main p, h1 {
+    font-size: 14vmin;
+    color: black;
+}
+
+
+
+/*Menu*/
+
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("../img/icons/menu.svg");
+}
+
+.dropdown a, h6 {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dropdown a:hover, h6:hover {
+    color: #dc3545;
+}
+
+.dropdown {
+    display: inline-block;
+}
+.dropdown ul, ol{
+    list-style: none;
+}
+
+/* Dropdown - submenu */
+.dropdown-submenu {
+    display: block;
+    position: relative;
+}
+
+
+.dropdown-submenu[data-toggle=hover] > .dropdown-menu {
+    transform: translateX(0) translateY(-3px) scale(.97);
+}
+
+.dropdown-submenu[data-toggle=hover]:hover > .dropdown-menu {
+    transform: translateX(0) translateY(-3px) scale(1);
+}
+
+.navbar {
+    z-index: 101;
+}
+
+
+.navbar-nav .nav-link {
+
+    transition: all .15s linear;
+}
+
+
+.navbar .dropdown-menu {
+    min-width: 700px;
+    padding: 50px 50px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+@media (max-width: 992px) {
+
+    .navbar-expand-lg {
+        height: 45px;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        background: white;
+    }
+
+    .navbar-expand-lg .navbar-collapse-overlay .nav-item {
+        padding: 0 25px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        box-shadow: none;
+        min-width: auto;
+        display: block;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item .nav-link {
+        color: #242424;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-toggler {
+        position: absolute;
+        top: 0;
+        right: 7px;
+        color: #242424;
+        z-index: 100;
+    }
+
+    .navbar-expand-lg .navbar-collapse-overlay {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        left: 20px;
+        max-height: 100vh;
+        z-index: 100;
+        padding: 20px 0;
+        overflow-y: scroll;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all .2s ease-in-out;
+        border-radius: 5px;
+    }
+
+    .navbar-expand-lg .navbar-collapse-overlay.show {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all .2s ease-in-out
+    }
+}
+
+@media (min-width: 992px) {
+    .dropdown-animate > .dropdown-menu {
+        opacity: 0;
+        position: absolute;
+        display: block;
+        pointer-events: none;
+    }
+
+    .dropdown-animate[data-toggle=hover] > .dropdown-menu {
+        display: block;
+        margin: 0;
+        left: 50%;
+        transform: translateX(-90%) translateY(-3px) scale(.97);
+        transition: all .2s ease;
+    }
+
+    .dropdown-animate[data-toggle=hover]:hover > .dropdown-menu {
+        display: block;
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(-90%) translateY(-3px) scale(1);
+    }
+}
+
+/*Menu end*/
+
+/* link animation */
+
+a span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+a span:before, span:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    background: white;
+}
+
+a span:before {
+    left: -2.5px;
+}
+
+a span:after {
+    right: 2.5px;
+    background: #dc3545;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a span:hover:before {
+    background: #dc3545;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+a span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+/* link animation end */
+
+.m-caption {
+    margin-top: 6%;
+}
+.caption-design{
+    font-family: Cyrvetica v2 Extra Outline, serif;
+}
+main {
+    --hue: 193;
+    animation: reveal-circle 2000ms 0ms infinite alternate ease-in-out;
+    background: #dc3545;
+    width: 80vmin;
+    height: 80vmin;
+}
+
+main.reveal-circle {
+    position: absolute;
+    right: 50%;
+    top: 15%;
+    animation-name: reveal-circle;
+    z-index: -1;
+}
+main.reveal-circle-left {
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    animation-name: reveal-circle;
+    z-index: -100;
+}
+
+
+@keyframes reveal-circle {
+    from {
+        clip-path: circle(0vmin)
+    }
+    to {
+        clip-path: circle(40vmin)
+    }
+}
+
+
+
+
+

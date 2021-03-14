@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Color Wheel</title>
+</head>
+<body>
+<header class="header-transparent" id="header-main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent justify-content-between" id="navbar-main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span id="navbar-logo">Color.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main-collapse"
+                    aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-collapse-overlay justify-content-end" id="navbar-main-collapse">
+                <div class="position-relative">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbar-main-collapse"
+                            aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="bi bi-x-square" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M14 1H2a1 1 0 00-1 1v12a1 1 0 001 1h12a1 1 0 001-1V2a1 1 0 00-1-1zM2 0a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V2a2 2 0 00-2-2H2z"
+                                  clip-rule="evenodd"/>
+                            <path fill-rule="evenodd"
+                                  d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+                                  clip-rule="evenodd"/>
+                            <path fill-rule="evenodd"
+                                  d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                    </button>
+                </div>
+
+
+                <ul class="navbar-nav ml-lg-auto">
+
+                    <li class="nav-item dropdown dropdown-animate" data-toggle="hover">
+                        <a class="nav-link" href="#" aria-haspopup="true" aria-expanded="false">
+                            <span class="text-dark">Меню</span></a>
+                        <div class="dropdown-menu dropdown-menu-md p-0">
+                            <ul class="list-group p-lg-4">
+                                <li>
+                                    <h6 class="text-danger">Значение цвета</h6>
+                                </li>
+                                <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                    <div class="row d-block d-lg-flex">
+                                        <div class="col">
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Красный</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Синий</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Желтый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Зеленый</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Оранжевый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0">
+                                                <p class="mb-lg-0 mb-2">Фиолетовый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Розовый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Белый</p>
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Бирюзовый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Серый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Коричневый</p>
+                                            </a>
+                                            <a href="#" class="list-group-item-action m-0  mb-0">
+                                                <p class="mb-lg-0 mb-2">Черный</p>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <div class="row d-block d-lg-flex">
+                                    <div class="col">
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href="#" class="list-group-item-action m-4">
+                                                <h6 class="mb-0">Свойства цвета</h6>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href='#' class="list-group-item-action">
+                                                <h6 class="mb-0">Цветовой круг</h6>
+                                            </a>
+                                        </li>
+                                    </div>
+                                    <div class="col">
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href="#" class=" list-group-item-action m-4">
+                                                <h6 class="mb-0">Типы цвета</h6>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href="#" class="list-group-item-action">
+                                                <h6 class="mb-0">Цветовые модели</h6>
+                                            </a>
+                                        </li>
+                                    </div>
+                                    <div class="col">
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href="#" class="list-group-item-action m-4">
+                                                <h6 class="mb-0">Цветовые палитры</h6>
+                                            </a>
+                                        </li>
+                                        <li class="dropdown dropdown-submenu" data-toggle="hover">
+                                            <a href="#" class="list-group-item-action">
+                                                <h6 class="mb-0">Своя палитра цветов</h6>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <a class="text-decoration-none" href="#"><p class="text-main-color"> Колористика для дизайнеров</p></a>
+    <hr class="col-12">
+
+    <h1 class="my-4">Цветовой круг</h1>
+    <div class="row">
+        <div class="col-lg-5">
+            <p class="my-4">Если вы когда-либо посещали занятия по живописи, вы точно видели
+                окружность, состоящую из разных цветов.
+                Она называется цветовым кругом и помогает понять, как цвета взаимосвязаны между собой и как их лучше
+                сочетать. Цветовой круг состоит из первичных, вторичных и третичных цветов, которые также известны как
+                тоны.</p>
+
+        </div>
+
+        <div class="col-lg-5 offset-lg-2">
+            <p class="">Цветовой круг был придуман Исааком Ньютоном в 1666 году и поначалу
+                выглядел как схема. С тех пор он
+                претерпел множество трансформаций, но по-прежнему остается главным инструментом для работы с
+                сочетаемостью цветов. Согласно задумке, цветовой круг должен работать так, чтобы вам было легче грамотно
+                смешивать цвета.</p>
+            <p class="">Цветовой круг спроектирован так, что сочетания любых цветов, выбранных
+                из него, будут хорошо смотреться
+                вместе. Главное - научиться пользоваться этим инструментом</p>
+        </div>
+    </div>
+
+    <hr class="col-12">
+
+    <!-- rule box -->
+    <div class="rule-box">
+        <h4>Color Rule</h4>
+        <ul id="rules">
+            <li data-type="1" class="active">Analogous</li>
+            <li data-type="2">Monochromatic</li>
+            <li data-type="3">Triad</li>
+            <li data-type="4">Complementary</li>
+            <li data-type="5">Custom</li>
+        </ul>
+    </div>
+    <!-- picker canvas -->
+    <div class="canvas">
+        <canvas id="picker"></canvas>
+    </div>
+    <!-- samples -->
+    <div class="my-5 samples">
+        <div class="col" data-sample="3">
+            <div class="sample"></div>
+            <div class="input-group">
+                <span>RGB</span>
+                <input type="text" maxlength="3" class="rgb r">
+                <input type="text" maxlength="3" class="rgb g">
+                <input type="text" maxlength="3" class="rgb b">
+            </div>
+            <div class="input-group">
+                <span>HEX</span>
+                <input type="text" class="hex">
+            </div>
+        </div>
+        <div class="col" data-sample="1">
+            <div class="sample"></div>
+            <div class="input-group">
+                <span>RGB</span>
+                <input type="text" maxlength="3" class="rgb r">
+                <input type="text" maxlength="3" class="rgb g">
+                <input type="text" maxlength="3" class="rgb b">
+            </div>
+            <div class="input-group">
+                <span>HEX</span>
+                <input type="text" class="hex">
+            </div>
+        </div>
+        <div class="col selected" data-sample="0">
+            <div class="sample"></div>
+            <div class="input-group">
+                <span>RGB</span>
+                <input type="text" maxlength="3" class="rgb r">
+                <input type="text" maxlength="3" class="rgb g">
+                <input type="text" maxlength="3" class="rgb b">
+            </div>
+            <div class="input-group">
+                <span>HEX</span>
+                <input type="text" class="hex">
+            </div>
+        </div>
+        <div class="col" data-sample="2">
+            <div class="sample"></div>
+            <div class="input-group">
+                <span>RGB</span>
+                <input type="text" maxlength="3" class="rgb r">
+                <input type="text" maxlength="3" class="rgb g">
+                <input type="text" maxlength="3" class="rgb b">
+            </div>
+            <div class="input-group">
+                <span>HEX</span>
+                <input type="text" class="hex">
+            </div>
+        </div>
+        <div class="col" data-sample="4">
+            <div class="sample"></div>
+            <div class="input-group">
+                <span>RGB</span>
+                <input type="text" maxlength="3" class="rgb r">
+                <input type="text" maxlength="3" class="rgb g">
+                <input type="text" maxlength="3" class="rgb b">
+            </div>
+            <div class="input-group">
+                <span>HEX</span>
+                <input type="text" class="hex">
+            </div>
+        </div>
+    </div>
+    <!-- scripts -->
+
+
+</div>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+<script src="https://rawgithub.com/soulwire/sketch.js/master/js/sketch.min.js"></script>
+<script src="./assets/js/color_wheel.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+
+        crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
+</html>
