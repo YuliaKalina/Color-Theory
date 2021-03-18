@@ -12,6 +12,7 @@
 body {
     font-family: Nunito, serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     transition: background-color 1s ease;
 }
 
@@ -196,8 +197,16 @@ ul, ol{
     color: orange;
 }
 
+.color-purple {
+    color: purple;
+}
+
+.m-img{
+    margin-top: 15vh;
+}
+
 .m-caption {
-    margin-top: 20vh;
+    margin-top: 15vh;
     margin-bottom: 20vh;
 }
 .caption-size{
@@ -1362,5 +1371,23 @@ main.reveal-circle-green {
     top: 15%;
     animation-name: reveal-circle;
     background: #008000;
+    z-index: -1;
+}
+
+main.reveal-circle-orange{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #ffa500;
+    z-index: -1;
+}
+
+main.reveal-circle-purple{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #800080;
     z-index: -1;
 }
