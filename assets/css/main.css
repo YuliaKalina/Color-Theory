@@ -20,6 +20,17 @@ ul, ol{
     list-style: none;
 }
 
+
+.button-top{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+
+
+
+
 /*Menu*/
 
 
@@ -185,20 +196,28 @@ ul, ol{
     color: #dc3545;
 }
 
+.color-blue {
+    color: #0000ff;
+}
+
 .color-yellow {
     color: #fee12b;
 }
 
 .color-green {
-    color: green;
+    color: #008000;
 }
 
 .color-orange {
-    color: orange;
+    color: #ffa500;
 }
 
 .color-purple {
-    color: purple;
+    color: #800080;
+}
+
+.color-pink {
+    color: #ffc0cb;
 }
 
 .m-img{
@@ -1356,6 +1375,15 @@ main.reveal-circle-red {
     z-index: -1;
 }
 
+main.reveal-circle-blue {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #0000ff;
+    z-index: -1;
+}
+
 main.reveal-circle-yellow {
     position: absolute;
     right: 10%;
@@ -1389,5 +1417,14 @@ main.reveal-circle-purple{
     top: 15%;
     animation-name: reveal-circle;
     background: #800080;
+    z-index: -1;
+}
+
+main.reveal-circle-pink{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #ffc0cb;
     z-index: -1;
 }
