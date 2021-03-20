@@ -184,9 +184,6 @@ ul, ol{
 
 /*Menu end*/
 
-
-
-
 .text-main-color {
     color: #dc3545;
     font-weight: bold;
@@ -1426,5 +1423,14 @@ main.reveal-circle-pink{
     top: 15%;
     animation-name: reveal-circle;
     background: #ffc0cb;
+    z-index: -1;
+}
+
+main.reveal-circle-white{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #e3e3e3;
     z-index: -1;
 }
