@@ -165,7 +165,7 @@ main p, h1 {
         transition: all .2s ease;
     }
 
-    .dropdown-animate[data-toggle=hover]:hover > .dropdown-menu {
+    .dropdown-animate[data-toggle=hover]:focus-within > .dropdown-menu {
         display: block;
         opacity: 1;
         pointer-events: auto;
