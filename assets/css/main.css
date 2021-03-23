@@ -549,32 +549,17 @@ label.box {
     margin: 10px;
 }
 
-label.box h1 {
-    font-weight: 400;
-    font-size: 14px;
-    color: #494A4A;
-    display: block;
-    float: left;
-    padding: 5px 0 0 5px;
-}
-
-label.box p {
-    font-weight: 300;
-    font-size: 11px;
-    color: #999999;
-    display: block;
-    float: left;
-    padding: 5px 0 5px 5px;
-}
 
 label.box span {
     font-weight: 300;
     font-size: 12px;
-    color: #5b5b5b;
+    color: #2d2d2d;
     display: block;
     float: left;
-    padding-left: 5px;
+    padding: 5px 10px 15px 5px;
 }
+
+
 
 label.color-left {
     width: 70px;
