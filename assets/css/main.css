@@ -218,6 +218,10 @@ ul, ol {
     color: #40e0d0;
 }
 
+.color-grey {
+    color: #808080;
+}
+
 .m-img {
     margin-top: 15vh;
 }
@@ -1916,5 +1920,14 @@ main.reveal-circle-turquoise {
     top: 15%;
     animation-name: reveal-circle;
     background: #40e0d0;
+    z-index: -1;
+}
+
+main.reveal-circle-grey {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #808080;
     z-index: -1;
 }
