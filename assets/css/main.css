@@ -214,6 +214,10 @@ ul, ol {
     color: #ffc0cb;
 }
 
+.color-pink {
+    color: #ffffff;
+}
+
 .color-turquoise {
     color: #40e0d0;
 }
@@ -1959,12 +1963,3 @@ main.reveal-circle-black {
     z-index: -1;
 }
 
-.color-card_black{
-    background-color: rgba(50, 50, 93, 0.25);
-    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    -moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    width: 40%;
-    height: 60vh;
-    z-index: -100;
-}
