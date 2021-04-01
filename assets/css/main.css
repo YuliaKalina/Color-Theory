@@ -226,6 +226,10 @@ ul, ol {
     color: 	#8B4513;
 }
 
+.color-black {
+    color: #000000;
+}
+
 .m-img {
     margin-top: 15vh;
 }
@@ -1909,12 +1913,13 @@ main.reveal-circle-pink {
     z-index: -1;
 }
 
-main.reveal-circle-white {
+.reveal-circle-white {
     position: absolute;
     right: 10%;
     top: 15%;
     animation-name: reveal-circle;
-    background: #e3e3e3;
+    background: #ffffff;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     z-index: -1;
 }
 
@@ -1943,4 +1948,23 @@ main.reveal-circle-brown {
     animation-name: reveal-circle;
     background: #8B4513;
     z-index: -1;
+}
+
+main.reveal-circle-black {
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    animation-name: reveal-circle;
+    background: #000000;
+    z-index: -1;
+}
+
+.color-card_black{
+    background-color: rgba(50, 50, 93, 0.25);
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    -moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 40%;
+    height: 60vh;
+    z-index: -100;
 }
