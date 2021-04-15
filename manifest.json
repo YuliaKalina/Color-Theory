@@ -1,9 +1,14 @@
 {
-  "name": "Color Theory",
+  "name": "Color-Theory_git",
+  "version": "1.0.0",
   "short_name": "C-T",
-  "theme_color": "#d000a8",
+  "description": "Мои заметки по теории цвета. Тематические посты для дизайнеров, подробные инструкции.",
+  "theme_color": "#dc3545",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/https://yuliakalina.github.io/Color-Theory/"
+  "start_url": "/https://yuliakalina.github.io/Color-Theory/",
+  "related_applications": [],
+  "prefer_related_applications": false
 }
+
