@@ -1,5 +1,5 @@
 
-let CACHE_NAME = 'my-cache';
+let cacheName = 'my-cache';
 let urlsToCache = [
     './',
     './index.js',
@@ -29,7 +29,7 @@ let urlsToCache = [
 self.addEventListener('install', function(event) {
 // Perform install steps
     event.waitUntil(
-        caches.open(CACHE_NAME)
+        caches.open(cacheName)
             .then(function(cache) {
                 console.log('Opened cache');
                 return cache.addAll(urlsToCache);
@@ -38,18 +38,17 @@ self.addEventListener('install', function(event) {
 });
 
 
-self.addEventListener('fetch', function(event) {
-    event.respondWith(
-        caches.match(event.request)
-            .then(function(response) {
-                    // Cache hit - return response
-                    if (response) {
-                        return response;
-                    }
-                    return fetch(event.request);
-                }
-            )
-    );
+self.addEventListener('fetch', (e) => {
+    e.respondWith((async () => {
+        const r = await caches.match(e.request);
+        console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
+        if (r) { return r; }
+        const response = await fetch(e.request);
+        const cache = await caches.open(cacheName);
+        console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
+        cache.put(e.request, response.clone());
+        return response;
+    })());
 });
 
 self.addEventListener('activate', function(event) {
