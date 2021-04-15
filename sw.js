@@ -17,7 +17,8 @@ let cached_assets = [
     './',
     './index.js',
     './css/main.css',
-    './js/main_page.css'
+    './js/main_page.css',
+    '/manifest.json'
 ];
 
 self.addEventListener('install', function (e) {
@@ -29,12 +30,12 @@ self.addEventListener('install', function (e) {
 });
 const timeout = 400;
 // При установке воркера мы должны закешировать часть данных (статику).
-self.addEventListener('install', (event) => {
-    event.waitUntil(
-        caches.open(CACHE).then((cache) => cache.addAll([
-                '/img/background'
-            ])
-        ));
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        caches.match(event.request).then(function(response) {
+            return response || fetch(event.request);
+        })
+    );
 });
 
 // при событии fetch, мы и делаем запрос, но используем кэш, только после истечения timeout.
