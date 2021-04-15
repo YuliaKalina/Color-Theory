@@ -2,47 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/img/Color_wheel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/background1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/black_sand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/black_stairs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/blue_blueberry.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/blue_see.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/brown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color-wheel-color-scheme-primary-color-color-theory.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color-wheel-color-theory.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_circle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_main_red.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_main_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_palettes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_properties.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_types.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/color_types_main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gradient.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/green_leaves.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/grey.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/monochrome.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/moon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/orange.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/orange_peachs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/paint_container.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/pink.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/purple_flower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/red_lamps.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/red_see.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sun (1).svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sun.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/turquoise.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/turquoise_beach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/turquoise_beach_square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/turquoise_cookie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/turquoise_cookie1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/white_flower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yellow_balls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/yellow_flower.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Компонент 1 – 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/black_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/black_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blue_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/blue_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/brown_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_models.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_models.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_palettes.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_palettes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_properties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_wheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_wheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors_types.html" beforeDir="false" afterPath="$PROJECT_DIR$/colors_types.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/green_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/green_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grey_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/grey_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pink_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/pink_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/purple_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/red_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/red_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turquoise_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/turquoise_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/white_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/white_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yellow_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/yellow_color.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -88,7 +68,14 @@
       <workItem from="1615979732763" duration="4926000" />
       <workItem from="1616074265494" duration="8739000" />
       <workItem from="1616251060009" duration="8116000" />
-      <workItem from="1616317348406" duration="17778000" />
+      <workItem from="1616317348406" duration="18596000" />
+      <workItem from="1616511964168" duration="3574000" />
+      <workItem from="1616761077959" duration="1768000" />
+      <workItem from="1616934045124" duration="4600000" />
+      <workItem from="1617094438398" duration="1271000" />
+      <workItem from="1617269910370" duration="6135000" />
+      <workItem from="1617453697877" duration="3364000" />
+      <workItem from="1618478241944" duration="1148000" />
     </task>
     <servers />
   </component>

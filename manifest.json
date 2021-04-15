@@ -1,0 +1,9 @@
+{
+  "name": "Color Theory",
+  "short_name": "C-T",
+  "theme_color": "#d000a8",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/https://yuliakalina.github.io/Color-Theory/"
+}
