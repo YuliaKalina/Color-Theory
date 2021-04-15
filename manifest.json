@@ -3,12 +3,25 @@
   "version": "1.0.0",
   "short_name": "C-T",
   "description": "Мои заметки по теории цвета. Тематические посты для дизайнеров, подробные инструкции.",
+  "orientation": "any",
   "theme_color": "#dc3545",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "related_applications": [],
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "assets/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "assets/img/android-icon",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
 }
 
