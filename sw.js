@@ -1,12 +1,18 @@
-self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
+self.addEventListener('install', (event) => {
+    console.log('Установлен');
+});
+
+self.addEventListener('activate', (event) => {
+    console.log('Активирован');
+});
+
+self.addEventListener('fetch', (event) => {
+    console.log('Происходит запрос на сервер');
 });
 
 
-
-let cacheName = 'Custom_name_cache';
-
-let appShellFiles = [
+let CACHE_NAME = 'my-cache';
+let urlsToCache = [
     './',
     './index.js',
     './css/main.css',
@@ -32,38 +38,43 @@ let appShellFiles = [
     '/manifest.json'
 ];
 
-
-const gamesImages = [];
-for (let i = 0; i < games.length; i++) {
-    gamesImages.push(`data/img/${games[i].slug}.jpg`);
-}
-const contentToCache = appShellFiles.concat(gamesImages);
-
-
-
-self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
-    e.waitUntil((async () => {
-        const cache = await caches.open(cacheName);
-        console.log('[Service Worker] Caching all: app shell and content');
-        await cache.addAll(contentToCache);
-    })());
+self.addEventListener('install', function(event) {
+// Perform install steps
+    event.waitUntil(
+        caches.open(CACHE_NAME)
+            .then(function(cache) {
+                console.log('Opened cache');
+                return cache.addAll(urlsToCache);
+            })
+    );
 });
 
 
-self.addEventListener('fetch', (e) => {
-    console.log(`[Service Worker] Fetched resource ${e.request.url}`);
+self.addEventListener('fetch', function(event) {
+    event.respondWith(
+        caches.match(event.request)
+            .then(function(response) {
+                    // Cache hit - return response
+                    if (response) {
+                        return response;
+                    }
+                    return fetch(event.request);
+                }
+            )
+    );
 });
 
-self.addEventListener('fetch', (e) => {
-    e.respondWith((async () => {
-        const r = await caches.match(e.request);
-        console.log(`[Service Worker] Fetching resource: ${e.request.url}`);
-        if (r) { return r; }
-        const response = await fetch(e.request);
-        const cache = await caches.open(cacheName);
-        console.log(`[Service Worker] Caching new resource: ${e.request.url}`);
-        cache.put(e.request, response.clone());
-        return response;
-    })());
+self.addEventListener('activate', function(event) {
+    var cacheWhitelist = ['pigment'];
+    event.waitUntil(
+        caches.keys().then(function(cacheNames) {
+            return Promise.all(
+                cacheNames.map(function(cacheName) {
+                    if (cacheWhitelist.indexOf(cacheName) === -1) {
+                        return caches.delete(cacheName);
+                    }
+                })
+            );
+        })
+    );
 });
