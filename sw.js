@@ -1,15 +1,3 @@
-self.addEventListener('install', (event) => {
-    console.log('Установлен');
-});
-
-self.addEventListener('activate', (event) => {
-    console.log('Активирован');
-});
-
-self.addEventListener('fetch', (event) => {
-    console.log('Происходит запрос на сервер');
-});
-
 
 let CACHE_NAME = 'my-cache';
 let urlsToCache = [
