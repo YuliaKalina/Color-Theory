@@ -15,11 +15,11 @@
     {
       "src": "assets/img/apple-touch-icon.png",
       "type": "image/png",
-      "sizes": "57x57"
+      "sizes": "100x100"
     },
     {
       "src": "assets/img/android-icon",
-      "sizes": "48x48",
+      "sizes": "100x100",
       "type": "image/png"
     }
   ]
