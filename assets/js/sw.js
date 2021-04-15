@@ -11,7 +11,22 @@ self.addEventListener('fetch', (event) => {
 });
 
 
-const CACHE = 'network-or-cache-v1';
+let cache_name = 'Custom_name_cache';
+
+let cached_assets = [
+    './',
+    './index.js',
+    './css/main.css',
+    './js/main_page.css'
+];
+
+self.addEventListener('install', function (e) {
+    e.waitUntil(
+        caches.open(cache_name).then(function (cache) {
+            return cache.addAll(cached_assets);
+        })
+    );
+});
 const timeout = 400;
 // При установке воркера мы должны закешировать часть данных (статику).
 self.addEventListener('install', (event) => {
@@ -51,28 +66,3 @@ function fromCache(request) {
         ));
 }
 
-addEventListener('fetch', function(event) {
-    event.respondWith(
-        caches.match(event.request)
-            .then(function(response) {
-                if (response) {
-                    return response;     // if valid response is found in cache return it
-                } else {
-                    return fetch(event.request)     //fetch from internet
-                        .then(function(res) {
-                            return caches.open(CACHE_DYNAMIC_NAME)
-                                .then(function(cache) {
-                                    cache.put(event.request.url, res.clone());    //save the response for future
-                                    return res;   // return the fetched data
-                                })
-                        })
-                        .catch(function(err) {       // fallback mechanism
-                            return caches.open(CACHE_CONTAINING_ERROR_MESSAGES)
-                                .then(function(cache) {
-                                    return cache.match('/offline.html');
-                                });
-                        });
-                }
-            })
-    );
-});
