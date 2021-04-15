@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/black_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/black_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blue_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/blue_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/brown_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/brown_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_models.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_models.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_palettes.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_palettes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_properties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/color_wheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_wheel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors_types.html" beforeDir="false" afterPath="$PROJECT_DIR$/colors_types.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/green_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/green_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grey_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/grey_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pink_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/pink_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/purple_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/red_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turquoise_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/turquoise_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/white_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/white_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellow_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/yellow_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +56,7 @@
       <workItem from="1617094438398" duration="1271000" />
       <workItem from="1617269910370" duration="6135000" />
       <workItem from="1617453697877" duration="3364000" />
-      <workItem from="1618478241944" duration="1148000" />
+      <workItem from="1618478241944" duration="1757000" />
     </task>
     <servers />
   </component>
