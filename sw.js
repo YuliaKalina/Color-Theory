@@ -1,19 +1,12 @@
-self.addEventListener('install', (event) => {
-    console.log('Установлен');
-});
-
-self.addEventListener('activate', (event) => {
-    console.log('Активирован');
-});
-
-self.addEventListener('fetch', (event) => {
-    console.log('Происходит запрос на сервер');
+self.addEventListener('install', (e) => {
+    console.log('[Service Worker] Install');
 });
 
 
-let cache_name = 'Custom_name_cache';
 
-let cached_assets = [
+let cacheName = 'Custom_name_cache';
+
+let appShellFiles = [
     './',
     './index.js',
     './css/main.css',
@@ -39,52 +32,28 @@ let cached_assets = [
     '/manifest.json'
 ];
 
-self.addEventListener('install', function (e) {
-    e.waitUntil(
-        caches.open(cache_name).then(function (cache) {
-            return cache.addAll(cached_assets);
-        })
-    );
-});
-const timeout = 400;
-// При установке воркера мы должны закешировать часть данных (статику).
-self.addEventListener('fetch', function(event) {
-    event.respondWith(
-        caches.match(event.request).then(function(response) {
-            return response || fetch(event.request);
-        })
-    );
-});
 
-// при событии fetch, мы и делаем запрос, но используем кэш, только после истечения timeout.
-self.addEventListener('fetch', (event) => {
-    event.respondWith(fromNetwork(event.request, timeout)
-        .catch((err) => {
-            console.log(`Error: ${err.message()}`);
-            return fromCache(event.request);
-        }));
-});
-
-// Временно-ограниченный запрос.
-function fromNetwork(request, timeout) {
-    return new Promise((fulfill, reject) => {
-        var timeoutId = setTimeout(reject, timeout);
-        fetch(request).then((response) => {
-            clearTimeout(timeoutId);
-            fulfill(response);
-        }, reject);
-    });
+const gamesImages = [];
+for (let i = 0; i < games.length; i++) {
+    gamesImages.push(`data/img/${games[i].slug}.jpg`);
 }
+const contentToCache = appShellFiles.concat(gamesImages);
 
-function fromCache(request) {
-// Открываем наше хранилище кэша (CacheStorage API), выполняем поиск запрошенного ресурса.
-// Обратите внимание, что в случае отсутствия соответствия значения Promise выполнится успешно, но со значением `undefined`
-    return caches.open(CACHE).then((cache) =>
-        cache.match(request).then((matching) =>
-            matching || Promise.reject('no-match')
-        ));
-}
 
+
+self.addEventListener('install', (e) => {
+    console.log('[Service Worker] Install');
+    e.waitUntil((async () => {
+        const cache = await caches.open(cacheName);
+        console.log('[Service Worker] Caching all: app shell and content');
+        await cache.addAll(contentToCache);
+    })());
+});
+
+
+self.addEventListener('fetch', (e) => {
+    console.log(`[Service Worker] Fetched resource ${e.request.url}`);
+});
 
 self.addEventListener('fetch', (e) => {
     e.respondWith((async () => {
