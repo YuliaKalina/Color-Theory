@@ -2,7 +2,22 @@ const CACHE_NAME = 'my-cache1';
 const ENABLE_DYNAMIC_CACHING = true
 let urlsToCache = [
   './index.html',
-  './color_properties.html'
+  './color_properties.html',
+  './color_models.html',
+  './color_palettes.html',
+  './color_wheel.html',
+  './colors_types.html',
+  './blue_color.html',
+  './red_color.html',
+  './yellow_color.html',
+  './blue_color.html',
+  './black_color.html',
+  './grey_color.html',
+  './green_color.html',
+  './pink_color.html',
+  './purple_color.html',
+  './orange_color.html',
+  './turquoise_color.html',
 ];
 
 self.addEventListener('install', installSW)
