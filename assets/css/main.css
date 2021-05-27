@@ -31,11 +31,6 @@ ul, ol {
 
 /*Menu*/
 
-
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("../img/icons/menu.svg");
-}
-
 .dropdown a, .dropdown p, .dropdown h6 {
     color: black;
     font-weight: bold;
@@ -214,7 +209,7 @@ ul, ol {
     color: #ffc0cb;
 }
 
-.color-pink {
+.color-white {
     color: #ffffff;
 }
 
