@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="" />
+    <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/logo_julia_copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/black_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/black_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blue_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/blue_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/brown_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/brown_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_models.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_models.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_palettes.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_palettes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_properties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/color_wheel.html" beforeDir="false" afterPath="$PROJECT_DIR$/color_wheel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors_types.html" beforeDir="false" afterPath="$PROJECT_DIR$/colors_types.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/green_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/green_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grey_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/grey_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pink_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/pink_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purple_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/purple_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/red_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/red_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turquoise_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/turquoise_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/white_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/white_color.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yellow_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/yellow_color.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,12 +41,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1psidsQaFVnlj92jRaSmBwahayc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,12 +97,16 @@
       <workItem from="1620298412996" duration="785000" />
       <workItem from="1620470365309" duration="2535000" />
       <workItem from="1620900367087" duration="1260000" />
-      <workItem from="1622100633459" duration="2356000" />
+      <workItem from="1622100633459" duration="2826000" />
+      <workItem from="1622113100893" duration="2813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619261027985">
