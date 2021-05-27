@@ -9,12 +9,12 @@
   "start_url": "index.html",
   "icons": [
     {
-      "src": "./assets/img/logo/apple-touch-icon.png",
+      "src": "./assets/img/logo/logo.png",
       "type": "image/png",
       "sizes": "100x100"
     },
     {
-      "src": "./assets/img/logo/color.png",
+      "src": "./assets/img/logo/logo_2.png",
       "type": "image/png",
       "sizes": "144x144"
     }
