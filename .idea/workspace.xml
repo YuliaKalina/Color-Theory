@@ -13,14 +13,6 @@
       <change beforePath="$PROJECT_DIR$/colors_types.html" beforeDir="false" afterPath="$PROJECT_DIR$/colors_types.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/green_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/green_color.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grey_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/grey_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pink_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/pink_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purple_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/purple_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/red_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/red_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turquoise_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/turquoise_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/white_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/white_color.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yellow_color.html" beforeDir="false" afterPath="$PROJECT_DIR$/yellow_color.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +95,8 @@
       <workItem from="1622127833366" duration="1379000" />
       <workItem from="1622278324286" duration="31000" />
       <workItem from="1622475598393" duration="2495000" />
-      <workItem from="1622830979123" duration="2117000" />
+      <workItem from="1622830979123" duration="2293000" />
+      <workItem from="1623325267607" duration="378000" />
     </task>
     <servers />
   </component>
