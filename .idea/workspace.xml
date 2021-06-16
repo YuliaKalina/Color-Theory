@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main_page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/menu_dropdown.js" beforeDir="false" />
-    </list>
+    <list default="true" id="9b485d3d-aae4-4c25-a580-40610de252d6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +86,7 @@
       <workItem from="1622830979123" duration="2293000" />
       <workItem from="1623325267607" duration="564000" />
       <workItem from="1623743777283" duration="2040000" />
-      <workItem from="1623748179694" duration="1861000" />
+      <workItem from="1623748179694" duration="2249000" />
     </task>
     <servers />
   </component>

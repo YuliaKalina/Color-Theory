@@ -1357,7 +1357,7 @@ label.color-right.quaternary-five {
 /* Color Models */
 
 .color-card {
-    width: auto;
+    width: 50%;
     box-sizing: border-box;
     padding: 30px;
     text-align: center;
@@ -1497,8 +1497,7 @@ label.color-right.quaternary-five {
         transform: rotate(360deg);
     }
 }
-
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .color-card {
         width: 100vw;
     }
